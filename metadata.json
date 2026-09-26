@@ -1,0 +1,6 @@
+{
+  "name": "FitTrack Pro - Your AI Fitness Partner",
+  "description": "An intelligent fitness tracking platform providing age-based workout plans, AI dietary references, community interactions, and gamified progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
