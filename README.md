@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Welcome to FitTrack!
 
-# Run and deploy your AI Studio app
+## Introduction
 
-This contains everything you need to run your app locally.
+Staying consistent with fitness can sometimes be difficult when workouts, activities, and nutrition information are all in different places.
 
-View your app in AI Studio: https://ai.studio/apps/2f15b17c-fd4c-43ae-96ec-440b7b87e4bc
+With FitTrack, I wanted to create a simple fitness web application where users can explore workouts, keep track of their activities, and get personalized workout suggestions based on their age.
 
-## Run Locally
+The application also includes a profile section, activity log, community section, and diet and nutrition references, making it easier for users to keep their fitness-related information in one place.
 
-**Prerequisites:**  Node.js
+## How I built it
 
+I used **React** and **TypeScript** as the base of the application, with **Vite** for the development setup.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+For the user interface, I used **Tailwind CSS**, along with **Lucide React** for icons and **Motion** for animations.
+
+I also integrated the **Google Gemini API** to add AI-assisted fitness suggestions and personalized workout recommendations. **Express** was used for the server-side part of the application.
+
+## Challenges I ran into
+
+One of the main challenges I faced was bringing all the different parts of the application together while keeping the interface simple and easy to use.
+
+I also had to work with the personalized workout features and make sure that the information provided to users was presented in a clear and useful way.
+
+Another challenge was connecting the frontend with the server-side functionality and the Gemini API while keeping the overall application responsive.
+
+## Accomplishments I'm proud of
+
+I'm proud of bringing different fitness-related features together into one application.
+
+The application can provide personalized workout suggestions based on the user's age, while also allowing users to view their activities and explore fitness, diet, and nutrition-related information.
+
+I also focused on keeping the interface clean and simple so that users can move between the different sections without making the application feel complicated.
+
+## What I learned
+
+While working on FitTrack, I learned more about building a complete web application using React and TypeScript.
+
+I also gained experience working with APIs and connecting frontend components with server-side functionality.
+
+Working with the Gemini API helped me understand how AI-based features can be integrated into a web application to provide more personalized experiences.
+
+I also learned how important it is to keep the user interface simple while adding different features to an application.
