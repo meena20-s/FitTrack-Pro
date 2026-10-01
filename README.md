@@ -41,3 +41,26 @@ I also gained experience working with APIs and connecting frontend components wi
 Working with the Gemini API helped me understand how AI-based features can be integrated into a web application to provide more personalized experiences.
 
 I also learned how important it is to keep the user interface simple while adding different features to an application.
+
+## Getting Started
+
+To run FitTrack on your local machine, first install the required dependencies:
+
+### `npm install`
+
+Installs all the packages required to run the project.
+
+### `npm run dev`
+
+Starts the application in development mode.
+
+Open the local URL shown in your terminal to view FitTrack in your browser.
+
+The application will update when changes are made to the code.
+
+### Environment Variables
+
+Some features of FitTrack use the Gemini API. Before running the application, create a `.env.local` file in the project directory and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_api_key_here
